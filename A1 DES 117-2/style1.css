@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Avenir";
+    font-size: 10pt;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+h3{
+    float:left;
+    font-family: "Avenir";
+    font-size: 25pt;
+    text-align: center;
+    color:white;
+   top:20pt;
+    position:fixed;
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+}
+
+body{
+    background: linear-gradient(#FFA914,#FFE7BE);
+    background-repeat: no-repeat;
+    background-size:100%;
+   
+    
+    
+}
+
+div{
+    font-family:"Avenir";
+    text-align: center;
+    height:200px;
+    margin-top:5em;
+    padding: 5px 25px 25px 25px;
+    
+}
+
+.style{
+    width:25px;
+    height:25px;
+}
+
+.image{
+    width:100%;
+    border: 10px solid white;
+   
+}
+
+.pad{
+    padding: 10px 10px 10px 10px;
+}
+
+
+.pad {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .pad:hover {
+      opacity: 0.5;
+      }
+
+
+
+footer{
+    font-family: "Avenir";
+    font-size:9pt;
+    text-align: center;
+   bottom:0;
+   width:100%;
+     clear: both;
+    position: relative;
+    z-index: 10;
+    height: 7em;
+    margin-top: 20em;
+}
+
+

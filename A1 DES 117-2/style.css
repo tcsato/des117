@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Avenir";
+    font-size: 10pt;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+
+img{
+    width:100%;
+}
+section{
+   width:cover;
+    
+    
+}
+
+div{
+    white-space: nowrap;
+    
+}
+
+.style{
+    width:25px;
+    height:25px;
+}
+
+.style1{
+    width:400px;
+    height:400px;
+}
+
+.pad{
+    padding: 10px 10px 10px 10px;
+}
+
+
+.pad {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .pad:hover {
+      opacity: 0.5;
+      }
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+footer{
+    font-family: "Avenir";
+    font-size:9pt;
+    text-align: center;
+    margin-top:5em;
+}

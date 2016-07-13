@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Avenir";
+    font-size: 10pt;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+img{
+    width:100%;
+}
+
+h3{
+    float:left;
+    font-family: "Avenir";
+    font-size: 25pt;
+    text-align: center;
+    color:white;
+   top:20pt;
+    position:fixed;
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+}
+
+
+form{
+    margin-top: 5em;
+    font-family: "Avenir";
+    font-size: 12pt;
+    float:left;
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 7em;
+  
+    
+    
+}
+
+section{
+    margin-top: 5em;
+    font-family: "Avenir";
+    font-size: 12pt;
+    float:right;
+    text-align: center;
+    margin-right: 15%; 
+    margin-bottom: 7em;
+}
+
+.pad {
+    
+    padding: 10px 10px 10px 10px;
+}
+  .pad {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .pad:hover {
+      opacity: 0.5;
+      }
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+footer{
+    font-family: "Avenir";
+    font-size:9pt;
+    text-align: center;
+  
+     clear: both;
+    position: relative;
+   margin-top:5em;
+    
+    
+}
+
+.style{
+    width:25px;
+    height:25px;
+}
